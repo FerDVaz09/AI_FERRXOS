@@ -403,7 +403,8 @@ class MainWindow(QMainWindow):
             # Iniciar contador
             self.recording_seconds = 0
             self.recording_timer.start(1000)  # Actualizar cada segundo
-            show_message(self, "Error", "❌ No se pudo iniciar micrófono", "error")
+        else:
+            show_message(self, "Error", "❌ No se pudo iniciar micrófono. Usa 'Analizar Texto' en su lugar.", "error")
     
     def _on_stop_and_analyze(self):
         """Handler para finalizar y analizar"""
