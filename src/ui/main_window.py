@@ -53,11 +53,11 @@ class MainWindow(QMainWindow):
         
         # Transcribidor (configurar con API Key)
         api_key = self.config.get("api_key", "")
-        if not api_key:
-            show_message(None, "Error", "❌ Transcribidor no disponible. Configura tu API Key.", "error")
-            self.transcriber = None
-        else:
+        if api_key:
             self.transcriber = AudioTranscriber(api_key=api_key)
+        else:
+            self.transcriber = None
+            # No mostrar error popup al inicio - será mostrado cuando intente usar transcriptor
         
         # Aplicar estilos
         self.setStyleSheet(STYLESHEET)

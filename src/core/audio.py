@@ -17,14 +17,14 @@ except ImportError:
 class AudioCapture:
     """Gestor de captura de audio con detección de silencio"""
     
-    def __init__(self, sample_rate: int = 16000, channels: int = 1, silence_threshold: float = 0.08, silence_duration: float = 2.0):
+    def __init__(self, sample_rate: int = 16000, channels: int = 1, silence_threshold: float = 0.08, silence_duration: float = 5.0):
         """Inicializa el capturador de audio
         
         Args:
             sample_rate: Tasa de muestreo (Hz)
             channels: Número de canales
             silence_threshold: Umbral de amplitud para detectar silencio (0-1)
-            silence_duration: Segundos de silencio antes de considerar pausa (default: 2s)
+            silence_duration: Segundos de silencio antes de considerar pausa (default: 5s)
         """
         self.sample_rate = sample_rate
         self.channels = channels
