@@ -1,6 +1,8 @@
 # 🤖 AI_FERRXOS - Asistente Invisible para Reuniones
 
 > Copiloto IA para tu escritorio. Analiza reuniones en tiempo real, invisible para Zoom/Teams.
+>
+> 📥 **[Descargar v1.0 (120 MB)](https://github.com/FerDVaz09/AI_FERRXOS/releases/download/v1.0/AI_FERRXOS.exe)**
 
 ## 📋 Características
 
@@ -20,7 +22,7 @@
 
 ```bash
 # 1. Clonar proyecto
-git clone https://github.com/tu-usuario/AI_FERRXOS.git
+git clone https://github.com/FerDVaz09/AI_FERRXOS.git
 cd AI_FERRXOS
 
 # 2. Crear entorno virtual
@@ -115,15 +117,16 @@ Automático. Cada reunión genera:
 - ✅ **Sin datos** en la nube (solo archivos JSON locales)
 - ✅ **Open Source** - Revisa el código
 
-## 📞 Soporte
+## 📞 Soporte & Contacto
 
-- 📧 Email: [tu-email]
-- 🐛 Issues: GitHub Issues
-- 💬 Discord: [enlace]
+- 📧 Email: **ferdypruebass@gmail.com**
+- 💬 Discord: **ferxxos_08**
+- 🐛 Reportar bugs: [GitHub Issues](https://github.com/FerDVaz09/AI_FERRXOS/issues)
+- 📖 Documentación: [Ver en GitHub](https://github.com/FerDVaz09/AI_FERRXOS)
 
 ## 📄 Licencia
 
-Privada - 2026 © AI_FERRXOS
+Privada - 2026 © AI_FERRXOS - Desarrollado por **ferxxos_08**
 
 ---
 
