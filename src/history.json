@@ -1,0 +1,18 @@
+[
+  {
+    "id": "uuid-001",
+    "fecha": "2026-01-02 10:30:00",
+    "titulo": "Reunión con Freddy - Review de Perfil",
+    "modo": "NEGOCIOS",
+    "resumen_ia": "El candidato Ferdy tiene experiencia en QA y Python. Puntos fuertes: Automatización con n8n. Acción sugerida: Ofrecer prueba técnica.",
+    "transcript_completo": "Ferdy: Hola, tengo 5 años en QA..."
+  },
+  {
+    "id": "uuid-002",
+    "fecha": "2026-01-05 15:24:13",
+    "titulo": "Reunión - 05/01/2026 15:24",
+    "modo": "ENTREVISTA",
+    "resumen_ia": "❌ IA no configurada. Configura tu API Key primero.",
+    "transcript_completo": "Hola mundo."
+  }
+]
