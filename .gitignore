@@ -42,6 +42,8 @@ Thumbs.db
 # Config (keep examples, hide real keys)
 config.json
 .env
+src/config.json
+src/history.json
 
 # PyInstaller
 dist/
